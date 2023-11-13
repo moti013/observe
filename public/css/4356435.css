@@ -1,0 +1,1165 @@
+﻿
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+body, html {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    direction: rtl;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background: white;
+    font-family: almoni-tzar-aaa-regular;
+    color: #404040;
+    overflow: hidden;
+}
+
+
+h2 {
+    color: black
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+    /*background-image:url(../images/bg/mainBg.png);*/
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cover1 {
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+#strip20 {
+    position: absolute;
+    top: 0;
+    background-image: url(../images/strip20.png);
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 12vh;
+}
+
+#strip30 {
+    background-image: url(../images/strip30.png);
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+}
+
+.cent1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../images/strip1.png);
+    background-position: center center;
+    background-size: 100% 10vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtUseMail {
+    position: absolute;
+    bottom: 0;
+    right: 5vh;
+    font-size: calc(16px + 1.5vh);
+    display: flex;
+    align-items: center
+}
+
+.check1 {
+    width: 4vh;
+    height: 4vh;
+    margin: 0 2vh;
+}
+
+.centerCon {
+    width: 50vw;
+    height: 30vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+}
+
+
+#logo4 {
+    width: 15vw;
+    height: 10vw;
+    margin: 0 auto 5vw auto;
+    background-image: url(../images/logo4.png);
+    background-position: top right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 8vw;
+    height: 7vw;
+    top: 0;
+    right: 0;
+    z-index: 200;
+}
+
+#logoCon1 {
+    width: 15vw;
+    height: 10vw;
+    margin: 0 auto 5vw auto;
+    background-image: url(../images/logo1.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#q10 {
+    width: 12vh;
+    height: 10vh;
+    margin: auto;
+    background-image: url(../images/q10.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1vh;
+    bottom: 1vh;
+}
+
+#btStartCon1 {
+    width: 100%;
+    height: 14vw;
+    text-align: center;
+    background-image: url(../images/btStartCon1.png);
+    background-position: 100% 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#tatKot {
+    width: 10vw;
+    text-align: left;
+    position: absolute;
+    top: 14vh;
+    left: 2vh;
+    height: 5vh;
+    font-size: calc(14px + 3vh);
+    color: #7ebdc7;
+    font-family: almoni-tzar-aaa-regular;
+}
+
+.bt {
+    width: 10vw;
+    height: 4vw;
+    margin: auto;
+    background: green;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bold {
+    font-family: almoni-tzar-aaa-bold
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+}
+
+#btStart {
+    font-size: 3vw;
+}
+
+#screen4 {
+    background: white
+}
+
+#mesCon {
+    margin: auto;
+    width: 100%;
+    padding: 0 10px;
+    height: 50px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
+    background: red;
+    color: white;
+    bottom: 0;
+    display: none;
+    z-index: 20000;
+}
+
+
+
+
+#userBoxCon {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.userBoxClass {
+    width: 4vw;
+    height: 5vw;
+    background: pink;
+    text-align: center;
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.qClass {
+    width: 92%;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    color: white
+}
+
+#qForGroup {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: red;
+}
+
+
+
+
+
+
+
+
+#screen0 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.kot1 {
+    font-size: 18vh;
+    line-height: 12vh;
+    font-family: almoni-tzar-aaa-bold;
+}
+
+.kot1-1 {
+    font-size: 12vh;
+    font-family: almoni-tzar-aaa-bold;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* background: green; */
+    height: 20vh;
+}
+
+.kot100 {
+    font-size: 8vh;
+}
+
+
+
+.mainKot1 {
+    position: absolute;
+    width: 300px;
+    min-height: 60px;
+    height: 10vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    color: #a306ca;
+    font-weight: normal;
+}
+
+.kotcon1 {
+    position: relative;
+    width: 100%;
+    height: 16vh;
+    max-height: 150px;
+    min-height: 90px;
+    background-image: url(../images/kot14.png);
+    background-position: center 2vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0vh auto 5vh auto;
+}
+
+.kot112 {
+    height: 50%;
+    color: black;
+    font-size: 6.5vh;
+    width: 100%;
+    margin: auto;
+    font-family: almoni-tzar-aaa-bold;
+    text-align: center;
+    font-size: calc(16px + 2.5vh);
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/kot12.png);
+    background-position: center center;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+}
+
+.kot114 {
+    height: 50%;
+    color: black;
+    font-size: 6.5vh;
+    width: 100%;
+    margin: auto;
+    font-family: almoni-tzar-aaa-bold;
+    text-align: center;
+    font-size: calc(16px + 3.5vh);
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+#nameCon {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+    #nameCon h2 {
+        font-size: 30px;
+    }
+
+
+.txtBoxClass {
+    /*position: absolute;*/
+    width: 90%;
+    height: 100%;
+    font-size: calc(14px + 1vh);
+    color: black;
+    padding: 2px;
+    bottom: 1vh;
+    margin: auto;
+    text-align: center;
+    border: none;
+    background: rgba(0,0,0,0.05);
+    max-height: 40px;
+}
+
+.bt8 {
+    width: 14vw;
+    height: 4vw;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: almoni-tzar-aaa-bold;
+    position: absolute;
+    bottom: 0;
+    left: -4vw;
+    font-size: calc(14px + 2.5vh);
+    cursor: pointer;
+    padding: 1vh;
+}
+
+.btBg1 {
+    background-image: url(../images/btBg1.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#downloadProg {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+}
+
+
+
+
+.btLike2 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 4vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btLike {
+}
+
+.moreImage {
+    text-align: center;
+    font-size: calc(12px + 2vh);
+    font-weight: bold;
+}
+
+#btGoCon {
+    position: absolute;
+    width: 26vw;
+    height: 4vw;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.btGoClass {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    width: 10vh;
+    height: 10vh;
+}
+
+#btGo {
+    background-image: url(../images/ar2.png)
+}
+
+#btGo2 {
+    background-image: url(../images/ar1.png)
+}
+
+#mainQbox {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.boxCon {
+    background: red;
+    width: 90%;
+    margin: auto;
+    height: 57vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 18vh);
+    background-color: #fff;
+    color: #444;
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 4vh
+}
+
+.box1 {
+    width: 30vh;
+    height: 18vh;
+    position: relative;
+    cursor: pointer;
+}
+
+    .box1 img {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+    }
+
+.box3 {
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    background: rgba(163,6,202,0.5);
+    color: white;
+}
+
+.boxCover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.part1 {
+    width: 100%;
+    height: 13vh;
+    position: relative;
+    /*background: rgba(163,6,202,0.3);*/
+}
+
+#likeCon1 {
+    width: 20%;
+    max-width: 30vh;
+    height: 10vh;
+    float: left;
+    padding: 5px 5px;
+    text-align: left;
+    /*background: #a306ca*/
+}
+
+
+
+#quCon1 {
+    position: absolute;
+    top: 1vh;
+    right: 5vw;
+    text-align: center;
+    width: 78%;
+    height: 80%;
+    padding: 1vh 2vh 0 1vh;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/strip4.png);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theMainQ {
+    font-size: calc(12px + 4.5vh);
+    /* line-height: 4vh*/;
+    color: #404040;
+    font-family: almoni-tzar-aaa-bold
+}
+
+.more99 {
+    width: 80%;
+    margin: auto;
+    font-size: calc(12px + 1.5vh);
+}
+
+.more100 {
+    position: absolute;
+    margin: auto;
+    color: #7ebdc7;
+    margin-top: 8vh;
+    font-size: calc(14px + 6vh);
+    color: #404040;
+}
+
+.part2 {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 87vh
+}
+
+
+.canClass {
+    border: none;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+
+
+.con200 {
+    display: inline-block;
+    background: gray;
+    position: absolute;
+}
+
+.con201 {
+    display: inline-block;
+    background: gray;
+    position: absolute;
+}
+
+
+
+
+#canvasConmainImage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: red;
+    width: 300px;
+    height: 300px;
+    background: pink;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#cameraCon {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#cameraBorder {
+    position: absolute;
+    margin: auto;
+    width: 380px;
+    height: 380px;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    background-image: url(../images/frame10.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#cameraCon2 {
+    position: relative;
+    border: 1px solid #7f039e;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#my_camera {
+    position: absolute;
+    margin: 0 auto;
+    background: yellow;
+    /*border: 1px solid black;*/
+}
+
+    #my_camera video {
+        position: absolute;
+        right: 0;
+        left: 0;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+.cameraBt {
+    width: 130px;
+    height: 50px;
+    background-image: url(../images/bgBt12.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#btCameraSnap {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    color: black;
+    margin: auto;
+    z-index: 350;
+}
+
+#camRes {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#btCamBtCon {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+.addLeft {
+    float: left;
+}
+
+.addRight {
+    float: right
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------  TEMPALTE   -------------*/
+.strip80 {
+    height: 80%;
+    width: 75%;
+    font-size: 4vh;
+    background-image: url(../images/strip80.png);
+    background-position: center center;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding:0px 10px;*/
+}
+
+.strip90 {
+    height: 80%;
+    width: 20%;
+    font-size: 5vh;
+    background-image: url(../images/strip90.png);
+    background-position: center center;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#stripCon3 {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#canvasCon {
+    width: 100vw;
+    height: 100vh;
+    top: 12vh;
+    position: absolute;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#box9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    background-position: center center;
+    background-size: contain;
+}
+
+#boxCon8 {
+    position: absolute;
+    top: 0vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: white;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../images/bg3.png);
+    background-color: red;
+    background-position: center center;
+    background-size: 100% 100%;
+    z-index: 50;
+    border: 10px solid #7ebdc7;
+    display: block;
+    transform-origin: center center;
+}
+
+
+.imgBox {
+    position: absolute;
+    background: blue;
+    object-fit: cover;
+    background-image: url(../images/pat.png);
+    border: 1px solid #fae360;
+}
+
+    .imgBox img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+.ccc1 {
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+}
+
+
+.tempName {
+    position: absolute;
+    text-align: center;
+    color: black;
+    z-index: 100;
+    width: 250px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+/*---------------------drawer----------------------------*/
+
+
+@keyframes example {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* The element to apply the animation to */
+.fade {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+#bgCon0 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+}
+
+#bgCon {
+    width: 10vw;
+    height: 100%;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    z-index: 100;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgConClass {
+    width: 100%;
+    height: 5vw;
+    background: gray;
+}
+
+    .bgConClass img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+.mainExCon {
+    width: 70vw;
+    height: 70vh;
+    max-width: 1700px;
+    max-height: 1000px;
+    padding: 5vh;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    /*border: 1px solid black;
+    border-radius: 1vw;*/
+    background-image: url(../images/explainBg.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explainCon {
+    width: 100%;
+    height: 100%;
+    padding: 1vh;
+}
+
+.mainExCon2 {
+    width: 80vw;
+    height: 70vh;
+    max-width: 2000px;
+    max-height: 1200px;
+    padding: 1vw;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    /*border: 1px solid black;
+    border-radius: 1vw;*/
+    background-image: url(../images/explainBg2.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.exKot {
+    font-size: 6vh;
+    font-size: calc(14px + 6vh);
+    margin: 1% 0 0 0;
+    font-family: almoni-tzar-aaa-bold;
+    color: black;
+}
+
+.exReg {
+    margin: auto;
+    text-align: right;
+    padding: 3vh;
+    font-size: calc(14px + 3vh);
+    font-family: Alef-Regular;
+}
+
+.bt3 {
+    margin: 5% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.loader1 {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#screen100 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 3vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+.portLang {
+    font-family: 'arabic' !important;
+}
+
+@media only screen and (max-height:500px) {
+    .exReg {
+        font-size: calc(14px + 2vh);
+    }
+
+    .mainExCon, .mainExCon2 {
+        width: 94vw;
+        height: 88vh;
+        padding: 4vh;
+    }
+
+    .kotcon1 {
+        height: 30%;
+    }
+}
+
+
+/*@media only screen and (min-height:1000px) {
+    
+
+    .mainExCon, .mainExCon2 {
+        width: 100vw;
+        height: 88vh;
+        padding: 5vh;
+    }
+
+   
+}
+*/
+
+@font-face {
+    font-family: 'almoni-tzar-aaa-bold';
+    src: url('../ass/font/almoni-tzar-aaa-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'almoni-tzar-aaa-light';
+    src: url('../ass/font/almoni-tzar-aaa-light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'almoni-tzar-aaa-regular';
+    src: url('../ass/font/almoni-tzar-aaa-regular.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'almoni-tzar-demibold-aaa';
+    src: url('../ass/font/almoni-tzar-demibold-aaa.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alef-Bold';
+    src: url('../ass/font/Alef-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Alef-Regular';
+    src: url('../ass/font/Alef-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'arabic';
+    src: url('../ass/font-arb/MarkaziText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MarkaziText-Regular';
+    src: url('../ass/font-arb/MarkaziText-Regular.ttf') format('truetype');
+}

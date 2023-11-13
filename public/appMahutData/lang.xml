@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<Items>
+	<btStart>
+		<heb>התחלה</heb>
+		<arb>البداية</arb>
+		<eng>Start</eng>
+	</btStart>
+	<txtName1>
+		<heb>מה שמך?</heb>
+		<arb>ما اسمك؟</arb>
+		<eng>What’s your name?</eng>
+	</txtName1>
+	<openTextKot>
+		<heb>לוח השראה</heb>
+		<arb>
+			لوح إلهام
+		</arb>
+		<eng>Inspiration Board</eng>
+	</openTextKot>
+	<openText>
+		<heb>
+		בפעילות שלפניכם תיצרו את לוח ההתבוננות האישי שלכם.
+		קחו לכם רגע פרטי, פנו את עצמכם מהסחות דעת, אפשר להשמיע מוסיקה נעימה ברקע וכנסו לעולם הפנימי שלכם.
+		<![CDATA[<br />]]>
+		איך נעשה זאת? | נשאל שאלות שאת התשובות להן נבחר בתמונות.
+		התמונות תלויות פרשנות אישית ומייצגות מה שנראה בעינכם.
+		תשובותיכם נכונות לרגע הזה.
+		<![CDATA[<br />]]>
+		שנתחיל?
+		</heb>
+		<arb>
+			لوح إلهام
+			ستقومون في الفعالية التالية بتصميم لوح الإلهام الخاص بكم. خذوا لكم لحظة مع أنفسكم،
+			حاولوا أن تبتعدوا عن أي شيء من شأنه أن يشغل تفكيركم، ممكن الاستماع لموسيقى لطيفة خلال ذلك وادخلوا عالمكم الداخلي.
+			كيف نفعل ذلك؟ سنطرح أسئلة الاجابة عليها ستكون من خلال اختيار صور.
+			تحليل الصور شخصي وهي تُمثل ما ترونه أنتم.
+			إجاباتكم صحيحة ومناسبة لهذه اللحظة.
+			<![CDATA[<br />]]>
+			هل نبدأ؟
+		</arb>
+		<eng>
+			In the following activity you will create your own personal observation board. Take a minute for yourself, privately, clear away any distractions, play some soothing music if you like, and enter into your inner world. How will we do this? | We will ask questions, and choose their answer in images. These images are personally interpretative for each of us, represent what you see in your mind’s eye. Your answers are correct for this moment, now. Shall we start?
+		</eng>
+	</openText>
+	<txtEmail1>
+		<heb>כתובת הדואר שלך ?</heb>
+		<arb>بريدك الالكتروني</arb>
+		<eng>
+			What’s your email address?
+		</eng>
+	</txtEmail1>
+	<txtEmail2>
+		<heb>מעדיף להתקדם בלי מייל</heb>
+		<arb>
+			أُفضّل التقدم بدون عنوان بريدي الالكتروني
+		</arb>
+		<eng>I prefer continuing without email
+</eng>
+	</txtEmail2>
+	
+	<btContin>
+		<heb>המשך</heb>
+		<arb>أكمل</arb>
+		<eng>
+			Next
+		</eng>
+	</btContin>
+	<btCamYes>
+		<heb>יצא טוב</heb>
+		<arb>الصورة جيدة</arb>
+		<eng>
+			Good shot
+		</eng>
+	</btCamYes>
+	<btCamNo>
+		<heb>צלם שוב</heb>
+		<arb>صور مرة أخرى</arb>
+		<eng>
+			Retake picture
+		</eng>
+	</btCamNo>
+	<btCameraSnap>
+		<heb>צלם</heb>
+		<arb>التقط صورة</arb>
+		<eng>
+			Take picture
+		</eng>
+	</btCameraSnap>
+	<nameErr>
+		<heb>יש להזין שם </heb>
+		<arb>سجل اسمك </arb>
+		<eng>
+			Please enter your name
+		</eng>
+	</nameErr>
+	<emailErr1>
+		<heb>כתובת מייל לא תקינה</heb>
+		<arb>عنوان البريد الالكتروني ليس صالحا</arb>
+		<eng>
+			Your email address is invalid
+		</eng>
+	</emailErr1>
+	<emailErr2>
+		<heb>יש להוסיף אי מייל</heb>
+		<arb>أضف عنوان البريد الالكتروني</arb>
+		<eng>
+			Please enter your email
+		</eng>
+	</emailErr2>
+
+	<noCameraErr>
+		<heb>להמשיך בלי תמונה לחצו ok  להפעלת המצלמה לחצו cancel  ובמסך הבחירה לחצו על אייקון המצלמה. האייקון נמצא ליד כתובת האתר</heb>
+		<arb>للاستمرار بدون صورة اضغطوا على OK لإلغاء الكاميرا اضغطوا cancel   واختاروا أيقونة الكاميرا في شاشة الاختيار.
+			الأيقونة موجودة بجانب عنوان الموقع.</arb>
+		<eng>
+			To continue without an image, click OK
+			To start your camera, click Cancel, and on the selection pane, click the camera icon. The icon is next to the website address
+
+		</eng>
+	</noCameraErr>
+	<stage1Kot>
+		<heb>שלב 1: שאלות</heb>
+		<arb>
+			المرحلة 1: الأسئلة
+		</arb>
+		<eng>
+			Stage 1: Questions
+		</eng>
+	</stage1Kot>
+	<stage1>
+		<heb>
+			בכל פעם תוצג שאלה - איך עונים? בתמונות!
+			<![CDATA[<br />]]>
+			לאחר הופעת השאלה יופיע מסך עם בנק תמונות | עליך לבחור לכל שאלה 2 תמונות.
+			<![CDATA[<br />]]>
+			איך בוחרים? | באמצעות הקלקה עליהן.
+			<![CDATA[<br />]]>
+			בחרתם תמונה בטעות? | הקלקה חוזרת על התמונה תבטל את הבחירה.
+			<![CDATA[<br />]]>
+			הערה חשובה | זיכרו שתוכלו לערוך ולתקן את הלוח בסיום הכנתו!
+		</heb>
+		<arb>
+			في كل مرة سيُطرح سؤال – كيف تجيبون؟ بالصور!
+			<![CDATA[<br />]]>
+			بعد ظهور السؤال ستظهر شاشة فيها مجموعة صور | عليك اختيار صورتين عن كل سؤال.
+			<![CDATA[<br />]]>
+			كيف تختارون؟ | بالضغط على الصور.
+			<![CDATA[<br />]]>
+			اخترتم صورة بالخطأ؟ | اضغطوا ثانية على الصورة لإلغاء ذلك الاختيار.
+			<![CDATA[<br />]]>
+			ملاحظة هامة | تذكروا أنه يمكنكم تعديل وتصحيح اللوح عند الانتهاء من إعداده!
+
+		</arb>
+		<eng>
+			A question will be asked – how do you answer? In images!
+			<![CDATA[<br />]]>
+			After a question is shown, a set of images will appear on screen | For each question, choose two images.
+			<![CDATA[<br />]]>
+			You chose an image by mistake? | Just click the image again to cancel your selection.
+			<![CDATA[<br />]]>
+
+			Note | Remember you can always edit and change your board once your done creating it!
+
+		</eng>
+	</stage1>
+
+	<stage2Kot>
+		<heb>שלב 2: עריכה</heb>
+		<arb>
+			المرحلة 2: إعداد
+		</arb>
+		<eng>
+			Stage 2: Edit
+		</eng>
+	</stage2Kot>
+	<stage2>
+		<heb>
+			חשוב שהתוצאה תהיה נהדרת!
+			<![CDATA[<br />]]>
+			אם היא כזו - לחצו בעמוד הבא על כפתור "סיום".
+			<![CDATA[<br />]]>
+			אם היא מצריכה דיוק - נחליף תמונות
+			<![CDATA[<br />]]>
+			להחלפת תמונה - לחצו עליה ובחרו את התמונה המבוקשת.
+
+		</heb>
+		<arb>
+			مهم أن تكون النتيجة رائعة!
+			<![CDATA[<br />]]>
+			اذا كانت كذلك – اضغطوا في الصفحة التالية على زر "إنهاء".
+			<![CDATA[<br />]]>
+			اذا كانت بحاجة للتدقيق أكثر – نبدل الصور
+			<![CDATA[<br />]]>
+			لتبديل صورة – اضغطوا عليها واختاروا الصورة المطلوبة.
+		</arb>
+		<eng>
+			It’s important that the results be great!
+			<![CDATA[<br />]]>
+			If it is just perfect – Click Finish on the next screen
+			To change an image – Click it, and then chose another
+
+		</eng>
+	</stage2>
+	
+	<txtReady>
+		<heb>מוכנים?</heb>
+		<arb>
+			مستعدون؟
+		</arb>
+		<eng>
+			Ready?
+		</eng>
+	</txtReady>
+	<txtfirstQ>
+		<heb>שאלה ראשונה</heb>
+		<arb>
+			السؤال الأول
+		</arb>
+		<eng>
+			First question
+		</eng>
+	</txtfirstQ>
+	<btLike>
+		<heb>
+		הבא
+		</heb>
+		<arb>التالي</arb>
+		<eng>
+			Continue
+		</eng>
+	</btLike>
+	<txtMoreImg>
+		<heb>עוד תמונות</heb>
+		<arb>
+			مزيد من الصور
+		</arb>
+		<eng>More images
+</eng>
+	</txtMoreImg>
+	<chooseErr2>
+		<heb>יש לבחור 2 תמונות</heb>
+		<arb>
+			قم باختيار صورتين
+		</arb>
+		<eng>
+			Choose two images
+		</eng>
+	</chooseErr2>
+	<chooseErr1>
+		<heb>יש לבחור תמונה</heb>
+		<arb>
+			قم باختيار صورة واحدة
+		</arb>
+		<eng>Choose only one image</eng>
+	</chooseErr1>
+
+	<kotEdit1>
+		<heb>עריכה |</heb>
+		<arb>إعداد | </arb>
+		<eng>Edit | </eng>
+	</kotEdit1>
+	<kotEdit2>
+		<heb>להחלפת תמונה - לחצו עליה וביחרו את התמונה המבוקשת</heb>
+		<arb>لتبديل الصورة – اضغطوا عليها واختاروا الصورة المطلوبة   </arb>
+		<eng>
+			To change an image – Click it, and then chose another
+		</eng>
+	
+	</kotEdit2>
+	<btEnd>
+		<heb>שמירה וסיום</heb>
+		<arb>
+			حفظ وانهاء
+		</arb>
+		<eng>
+			Save and Close
+		</eng>
+	</btEnd>
+
+	<seeYou>
+		<heb>
+			נתראה בקרוב
+		</heb>
+		<arb>
+			الى اللقاء قريبًا
+		</arb>
+		<eng>
+			See you soon
+		</eng>
+	</seeYou>
+	<sendErr1>
+		<heb>
+			לוח ההתבוננות שיצרת נשלח למייל שלך בהצלחה
+		</heb>
+		<arb>
+			"تم ارسال لوح الالهام الذي بنيته الى بريدك الالكتروني بنجاح"
+		</arb>
+		<eng>
+			Your observation board has been successfully sent to your email
+
+		</eng>
+	</sendErr1>
+	<sendErr2>
+		<heb></heb>
+		<arb></arb>
+		<eng></eng>
+	</sendErr2>
+	<sendErr3>
+		<heb>תמונה לא נשמרה</heb>
+		<arb></arb>
+		<eng></eng>
+	</sendErr3>
+	<txtOnlyOne>
+		<heb>הפעם ביחרו רק משפט אחד</heb>
+		<arb>
+			اختاروا جملة واحدة فقط
+		</arb>
+		<eng>Choose only one </eng>
+	</txtOnlyOne>
+
+	
+	
+	
+	
+
+	<txtOpen5>
+		<heb>
+			
+			בדף זה יוצגו כל לוחות ההשראה
+			<![CDATA[<br />]]>
+			כדי להתמקד בלוח מסוים יש ללחוץ עליו
+			<![CDATA[<br />]]>
+			כדי לסגור לוח יש ללחוץ עליו שוב
+		</heb>
+		<arb>
+			ستُعرض على هذه الصفحة كل ألواح الإلهام
+			<![CDATA[<br />]]>
+			للتركيز على لوح ما عليكم الضغط عليه
+			<![CDATA[<br />]]>
+			لاغلاق لوح ما عليكم الضغط عليه ثانية
+		</arb>
+		<eng>
+			On this page all of the inspiration boards will be presented
+			<![CDATA[<br />]]>
+			To focus on a board, click it
+			<![CDATA[<br />]]>
+			To close the bord, click it again
+		</eng>
+	</txtOpen5>
+	<txtKot5>
+		<heb>לוחות ההשראה שלנו</heb>
+		<arb>
+			ألواح الإلهام خاصتنا
+		</arb>
+		<eng>
+			Our Inspiration Board
+
+		</eng>
+	</txtKot5>
+	<cet>
+		<heb>תמונות ההשראה שלנו</heb>
+		<arb>
+			صورنا الملهمة
+		</arb>
+		<eng>
+			Our inspirational images
+
+
+		</eng>
+	</cet>
+	<btZip>
+		<heb>הורדת כל התמונות</heb>
+		<arb>
+			تحميل كل الصور
+		</arb>
+		<eng>
+			Download all images
+		</eng>
+	</btZip>
+	<btErase>
+		<heb>מחיקת כל תמונות</heb>
+		<arb>
+			محو كل الصور
+		</arb>
+		<eng>
+			Delete all images
+
+		</eng>
+	</btErase>
+	<errErase>
+		<heb>פעולה זו תמחק את כל התמונות מלוח זה. האם אתה בטוח שאתה רוצה להמשיך בפעולה?</heb>
+		<arb>
+			هذه العملية ستؤدي الى محو كل الصور من هذا اللوح. هل أنت متأكد أنك تريد
+
+			أن تستمر بهذه العملية؟
+		</arb>
+		<eng>
+			This action will delete all of the images from this board. Are you sure you want to continue with this action?
+
+		</eng>
+	</errErase>
+	<noFolder>
+		<heb>
+		אין תיקייה
+		</heb>
+		<arb>
+			ا يوجد ملف
+
+		</arb>
+		<eng>
+			There is no folder
+		</eng>
+	</noFolder>
+	<errDelete>
+		<heb>כל  התמונות נמחקו</heb>
+		<arb>تم حذف جميع الصور</arb>
+		<eng>Ok</eng>
+	</errDelete>
+</Items>

@@ -1,0 +1,31 @@
+﻿@font-face {
+    font-family: 'almoni-tzar-aaa-bold' !important;
+    src: url('../ass/font-arb/MarkaziText-Bold.ttf') format('truetype') !important;
+}
+
+@font-face {
+    font-family: 'almoni-tzar-aaa-light' !important;
+    src: url('../ass/font-arb/MarkaziText-Regular.ttf') format('truetype') !important;
+}
+
+@font-face {
+    font-family: 'almoni-tzar-aaa-regular' !important;
+    src: url('../ass/font-arb/MarkaziText-Regular.ttf') format('truetype') !important;
+}
+
+
+@font-face {
+    font-family: 'almoni-tzar-demibold-aaa' !important;
+    src: url('../ass/font-arb/MarkaziText-Bold.ttf') format('truetype') !important;
+}
+
+@font-face {
+    font-family: 'Alef-Bold' !important;
+    src: url('../ass/font/MarkaziText-Bold.ttf') format('truetype') !important;
+}
+
+
+@font-face {
+    font-family: 'Alef-Regular' !important;
+    src: url('../ass/font/MarkaziText-Regular.ttf') format('truetype') !important;
+}

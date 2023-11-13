@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <script src="script/html2canvas.js"></script>
+  <script src="script/svg.mini.js"></script>
+
+  <script src="script/jquery-3.1.1.min.js"></script>
+  <script src="script/FileSaver.js"></script>
+
+  <script src="script/webcam-easy2.js"></script>
+
+
+
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <style>
+    .screen-1 {
+      width: 100%;
+      height: 100%;
+      background: white;
+      position: absolute;
+      z-index: 9000;
+      background-image: url(images/logo100.png);
+      background-size: 10%;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  </style>
+
+
+
+  <title>room3</title>
+</head>
+
+<body>
+
+
+
+
+  <div id="main">
+    <div id="screen-1" class="screen-1"></div>
+    <div id="cover1">
+      <div id="logo4"></div>
+      <div id="strip20"></div>
+      <div id="strip30"></div>
+    </div>
+
+    <div id="mesCon">
+      הודעה
+    </div>
+    <div id="screen0" class="screen">
+      <div id="tatKotMain">
+        <div id="takKot">
+          הרמת כוסית
+        </div>
+        <div id="tatKot2"><a href="https://www.mahuti.co.il/terms-mitbonenim/">תנאי שימוש</a></div>
+      </div>
+
+      <div class="centerCon">
+        <div id="logoCon1"></div>
+        <div id="btStartCon1">
+          <div id="btStart" class="bt bold" style="background:none;">התחלה</div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <div id="screen1" class="screen">
+      <div class="mainExCon">
+        <div style="width:100%;height:100%;position:relative">
+
+
+          <div class="kotcon1">
+            <div class="kot112" id="txtName1">מה שמך?</div>
+            <div class="kot114">
+              <input type="text" value="" id="txtName" class="txtBoxClass">
+            </div>
+
+          </div>
+          <div id="mail2" class="kotcon1">
+
+            <div class="kot112" id="txtEmail1">כתובת הדואר שלך</div>
+            <div class="kot114">
+              <input type="text" value="" id="txtEmail" class="txtBoxClass">
+            </div>
+
+          </div>
+
+          <div class="txtUseMail">
+            <span id="txtEmail2">מעדיף להתקדם בלי מייל</span>
+            <input type="checkbox" class="check1" id="isNeedEmail" />
+          </div>
+          <div id="btName" class="bt8 btBg1 btContin"> המשך</div>
+        </div>
+
+      </div>
+
+    </div>
+    <div id="screen2" class="screen">
+
+      <div class="part1">
+        <div id="likeCon1">
+          <div id="btLike" class="btLike2 btBg1">הבא</div>
+        </div>
+        <div id="quCon1">
+          <div id="theMainQ">
+            מה קורה גבר?
+
+          </div>
+
+          <div class="more99" id="txtOnlyOne2">ביחרו רק משפט אחד</div>
+        </div>
+      </div>
+      <div class="part2">
+
+        <div id="mainQbox"></div>
+
+      </div>
+      <div id="btGoCon">
+        <div id="btGo" class="btGoClass"></div>
+        <div class="moreImage" id="txtMoreImg">עוד תמונות</div>
+        <div id="btGo2" class="btGoClass"></div>
+      </div>
+      <div id="q10"></div>
+    </div>
+
+
+    <div id="screen3" class="screen" style="background:white">
+      <div id="stripCon3">
+        <div class="strip80">
+          <span style="font-size:5vh;padding:0 10px;" id="kotEdit1"> עריכה | </span>
+          <span id="kotEdit2">
+            להחלפת תמונה - לחצו עליה וביחרו את התמונה המבוקשת
+          </span>
+        </div>
+        <div class="strip90" id="btEnd">שמירה וסיום</div>
+      </div>
+      <div id="canvasCon">
+
+        <div id="boxCon8">
+          <div id="imgBoxCon2" data-id="2">
+            <div class="imgBox" data-id="0" style="top:60px; left:50px;  transform: rotate(-1deg);width:330px; height:220px"></div>
+            <div class="imgBox" data-id="1" style="top:55px; left:390px;  transform: rotate(-1deg);width:330px; height:220px"></div>
+          </div>
+
+          <div id="imgBoxCon0" data-id="0">
+            <div class="imgBox" data-id="0" style="top:420px; left:30px;  transform: rotate(0);width:330px; height:220px"></div>
+            <div class="imgBox" data-id="1" style="top:415px; left:375px;  transform: rotate(-3deg);width:330px; height:220px"></div>
+          </div>
+          <div id="imgBoxCon1" data-id="1">
+            <div class="imgBox" data-id="0" style="top:810px; left:240px;  transform: rotate(0);width:350px; height:220px"></div>
+            <div class="imgBox" data-id="1" style="top:810px; left:600px;  transform: rotate(0);width:350px; height:220px"></div>
+          </div>
+          <div id="imgBoxCon5" data-id="5" class="imgBoxCon5-2">
+            <div class="imgBox" data-id="0" style="top:760px; left:1210px;  transform: rotate(5deg);width:330px; height:220px"></div>
+            <div class="imgBox" data-id="1" style="top:780px; left:1540px;  transform: rotate(5deg);width:330px; height:220px"></div>
+          </div>
+          <div id="imgBoxCon5" data-id="5" class="imgBoxCon5-1">
+            <div class="imgBox" data-id="0" style="top: 760px; left: 1210px; transform: rotate(5deg); width: 660px; height: 220px"></div>
+
+          </div>
+          <div id="imgBoxCon4" data-id="4">
+            <div class="imgBox" data-id="0" style="top:240px; left:1550px;  transform: rotate(4deg);width:330px; height:220px"></div>
+            <div class="imgBox" data-id="1" style="top:470px; left:1533px;  transform: rotate(4deg);width:330px; height:220px"></div>
+          </div>
+          <div id="imgBoxCon3" data-id="3">
+            <div class="imgBox" data-id="0" style="top:70px; left:770px;  transform: rotate(2deg);width:300px; height:190px"></div>
+            <div class="imgBox" data-id="1" style="top:80px; left:1080px;  transform: rotate(2deg);width:300px; height:190px"></div>
+          </div>
+
+          <div id="txt2" class="tempName" style=" top: 280px;left:440px; transform: rotate(-1deg)">ערכים מנחים</div>
+          <div id="txt0" class="tempName" style="top: 660px;left: 70px;transform: rotate(-3deg);width:300px">חוזקותיי</div>
+          <div id="txt1" class="tempName" style="top: 715px;left: 670px;transform: rotate(0deg);">אוהב במקצוע</div>
+          <div id="txt5" class="tempName" style="width:150px;top: 810px;left: 1070px;transform: rotate(0deg)">מתנה<br />לעצמי</div>
+          <div id="txt4" class="tempName" style="width:150px;top: 530px;left: 1350px;transform: rotate(5deg)">נקודת מבט<br />בצוות</div>
+          <div id="txt3" class="tempName" style="width:150px;top: 130px;left: 1370px;transform: rotate(3deg)">להעשיר את חיי</div>
+          <div class="tempName" id="myUserName" style="width: 300px;  top: 670px;    left: 860px;   text-align: center;">השם שלי</div>
+
+          <div id="canvasConmainImage" class="con201" style="bottom: 50px;   left: 100px; background:gray"></div>
+        </div>
+      </div>
+
+    </div>
+    <div id="screen4" class="screen">
+
+      <div id="cameraBorder"></div>
+      <div id="cameraCon">
+
+        <div id="cameraCon2">
+          <div id="my_camera">
+            <video id="webcam" autoplay playsinline width="480" height="640"></video>
+
+          </div>
+          <div id="camRes"></div>
+
+        </div>
+        <div id="btCamBtCon">
+          <div id="btCamYes" class="cameraBt btLike addLeft">יצא טוב</div>
+          <div id="btCamNo" class="cameraBt  btLike  addRight">צלם שוב</div>
+
+
+        </div>
+        <div id="btCameraSnap" class="cameraBt">צלם</div>
+
+      </div>
+
+    </div>
+    <div id="screen5" class="screen">
+      <div class="centerCon" id="per1">
+        <div class="cent1">
+          <div class="kot1">
+            <span id="txtReady"> מוכנים?</span>
+
+            <div class="kot100" id="txtfirstQ"> שאלה ראשונה </div>
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="centerCon" id="per2" style="width:80vw">
+        <div class="cent1">
+          <div class="kot1-1" id="theMainQ2">
+            מהן חוזקותי כאיש חינוך
+          </div>
+          <div class="more100" id="txtOnlyOne">הפעם ביחרו רק משפט אחד</div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+    <div id="screen10" class="screen">
+      <div class="mainExCon2">
+        <div style="width:100%;height:100%;position:relative">
+          <div class="explainCon">
+
+            <p class="exKot" id="openTextKot">לוח השראה </p>
+            <p class="exReg" id="openText">
+              רגע לפני שפותחים את השנה, נרצה לעצור,להתבונן ולשאול, באמצעות בניה של לוח התבוננות אישי.
+              קחו לכם רגע עם עצמכם, פנו את עצמכם מהסחות דעת, אפשר להשמיע מוסיקה נעימה ברקע וכנסו לעולם הפנימי שלכם.
+              <br />
+              איך נעשה זאת? | נשאל שאלות שאת התשובות להן נבחר בתמונות.
+              התמונות תלויות פרשנות אישית ומייצגות מה שנראה בעינכם.
+              תשובותיכם נכונות לרגע הזה.
+              <br />
+              שנתחיל?
+
+            </p>
+
+            <div id="btEx0" class="bt8 btBg1 btContin">המשך</div>
+          </div>
+
+          <div class="explainCon">
+
+            <p class="exKot" id="stage1Kot">שלב 1: שאלות</p>
+            <p class="exReg" id="stage1">
+              בכל פעם תוצג שאלה - איך עונים? בתמונות!
+              <br />
+              לאחר הופעת השאלה יופיע מסך עם בנק תמונות | עליך לבחור לכל שאלה 2 תמונות.
+              <br />
+              איך בוחרים? | באמצעות הקלקה עליהן.
+              <br />
+              בחרתם תמונה בטעות? | הקלקה חוזרת על התמונה תבטל את הבחירה.
+              <br />
+              הערה חשובה | זיכרו שתוכלו לערוך ולתקן את הלוח בסיום הכנתו!
+            </p>
+
+            <div id="btEx2" class="bt8 btBg1 btContin">המשך</div>
+          </div>
+
+
+          <div class="explainCon">
+            <p class="exKot" id="stage2Kot">שלב 2: עריכה</p>
+            <p class="exReg" id="stage2">
+              חשוב שהתוצאה תהיה נהדרת!
+              <br />
+              אם היא כזו - לחצו בעמוד הבא על כפתור "סיום".
+              <br />
+              אם היא מצריכה דיוק - נחליף תמונות
+              <br />
+              להחלפת תמונה - לחצו עליה ובחרו את התמונה המבוקשת.
+            </p>
+
+            <div id="btEx3" class="bt8 btBg1 btContin">המשך</div>
+          </div>
+          <div class="explainCon">
+            <p class="exKot">תודה</p>
+            <p class="exReg">
+              תודה שקנית ילו
+              <br />
+              מהותי איתך תמיד
+              תן לזה כמה שניות עד שהתמונה תרד למחשב
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="screen100">
+      כדי להשתמש באפלקציה החזיקו את המכשיר בצורה רוחבית
+    </div>
+    <div id="loader">
+      <div class="loader1">
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <script>
+            var host = "https://" + location.host + "/";    //local hos
+            Date.now = Date.now || function () { return +new Date; };
+            function loadjscssfile(filename, filetype) {
+                if (filetype == "js") { //if filename is a external JavaScript file
+                    var fileref = document.createElement('script')
+                    fileref.setAttribute("type", "text/javascript")
+                    fileref.setAttribute("src", filename)
+                }
+                else if (filetype == "css") { //if filename is an external CSS file
+                    var fileref = document.createElement("link")
+                    fileref.setAttribute("rel", "stylesheet")
+                    fileref.setAttribute("type", "text/css")
+                    fileref.setAttribute("href", filename)
+                }
+                if (typeof fileref != "undefined")
+                    document.getElementsByTagName("head")[0].appendChild(fileref)
+            }
+
+
+           loadjscssfile("script/index.js?" + Date.now(), "js"); //dynamically load and add this .js file
+            loadjscssfile("css/index.css?" + Date.now(), "css");////dynamically load and add this .css file
+
+        </script> -->
+
+  <script src="script/index.js"></script>
+  <link rel="stylesheet" href="css/index.css" />
+
+</body>
+
+</html>
