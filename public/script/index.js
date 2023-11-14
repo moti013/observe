@@ -1,3 +1,5 @@
+alert("wellcome");
+
 const lang_xml = `<?xml version="1.0" encoding="utf-8"?>
 <Items>
 	<btStart>
