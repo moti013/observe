@@ -1,0 +1,297 @@
+{
+    "service": {
+        "serviceArn": "arn:aws:ecs:eu-central-1:182515924836:service/mahuti-online-aws-prod/observe2",
+        "serviceName": "observe2",
+        "clusterArn": "arn:aws:ecs:eu-central-1:182515924836:cluster/mahuti-online-aws-prod",
+        "loadBalancers": [
+            {
+                "targetGroupArn": "arn:aws:elasticloadbalancing:eu-central-1:182515924836:targetgroup/observe2/0f814fa85c9d5096",
+                "containerName": "observe2",
+                "containerPort": 8080
+            }
+        ],
+        "serviceRegistries": [],
+        "status": "ACTIVE",
+        "desiredCount": 1,
+        "runningCount": 1,
+        "pendingCount": 0,
+        "capacityProviderStrategy": [
+            {
+                "capacityProvider": "FARGATE",
+                "weight": 1,
+                "base": 0
+            }
+        ],
+        "platformVersion": "LATEST",
+        "platformFamily": "Linux",
+        "taskDefinition": "arn:aws:ecs:eu-central-1:182515924836:task-definition/observe2:1",
+        "deploymentConfiguration": {
+            "deploymentCircuitBreaker": {
+                "enable": true,
+                "rollback": true
+            },
+            "maximumPercent": 200,
+            "minimumHealthyPercent": 100
+        },
+        "deployments": [
+            {
+                "id": "ecs-svc/3843606034338136737",
+                "status": "PRIMARY",
+                "taskDefinition": "arn:aws:ecs:eu-central-1:182515924836:task-definition/observe2:1",
+                "desiredCount": 0,
+                "pendingCount": 0,
+                "runningCount": 0,
+                "failedTasks": 0,
+                "createdAt": "2023-11-14T10:35:38.059000+02:00",
+                "updatedAt": "2023-11-14T10:35:38.059000+02:00",
+                "capacityProviderStrategy": [
+                    {
+                        "capacityProvider": "FARGATE",
+                        "weight": 1,
+                        "base": 0
+                    }
+                ],
+                "platformVersion": "1.4.0",
+                "platformFamily": "Linux",
+                "networkConfiguration": {
+                    "awsvpcConfiguration": {
+                        "subnets": [
+                            "subnet-074c307df99a15e0e",
+                            "subnet-02dcd3cba91e02083"
+                        ],
+                        "securityGroups": [
+                            "sg-056cbff8d366ef2f5",
+                            "sg-0efc91c682d16afc2"
+                        ],
+                        "assignPublicIp": "ENABLED"
+                    }
+                },
+                "rolloutState": "IN_PROGRESS",
+                "rolloutStateReason": "ECS deployment ecs-svc/3843606034338136737 in progress."
+            },
+            {
+                "id": "ecs-svc/1488167285852917958",
+                "status": "ACTIVE",
+                "taskDefinition": "arn:aws:ecs:eu-central-1:182515924836:task-definition/observe2:1",
+                "desiredCount": 1,
+                "pendingCount": 0,
+                "runningCount": 1,
+                "failedTasks": 0,
+                "createdAt": "2023-11-14T09:54:24.997000+02:00",
+                "updatedAt": "2023-11-14T09:57:20.500000+02:00",
+                "capacityProviderStrategy": [
+                    {
+                        "capacityProvider": "FARGATE",
+                        "weight": 1,
+                        "base": 0
+                    }
+                ],
+                "platformVersion": "1.4.0",
+                "platformFamily": "Linux",
+                "networkConfiguration": {
+                    "awsvpcConfiguration": {
+                        "subnets": [
+                            "subnet-074c307df99a15e0e",
+                            "subnet-02dcd3cba91e02083"
+                        ],
+                        "securityGroups": [
+                            "sg-056cbff8d366ef2f5",
+                            "sg-0efc91c682d16afc2"
+                        ],
+                        "assignPublicIp": "ENABLED"
+                    }
+                },
+                "rolloutState": "COMPLETED",
+                "rolloutStateReason": "ECS deployment ecs-svc/1488167285852917958 completed."
+            }
+        ],
+        "roleArn": "arn:aws:iam::182515924836:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+        "events": [
+            {
+                "id": "3d20b7a0-7972-438b-9a04-fd757904b7cd",
+                "createdAt": "2023-11-14T09:57:20.506000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "a6b06a1c-1fba-48db-86d2-8af471beeb1d",
+                "createdAt": "2023-11-14T09:57:20.505000+02:00",
+                "message": "(service observe2) (deployment ecs-svc/1488167285852917958) deployment completed."
+            },
+            {
+                "id": "7009f0c9-d24a-4700-93f4-0298ccd4e841",
+                "createdAt": "2023-11-14T09:56:11.903000+02:00",
+                "message": "(service observe2, taskSet ecs-svc/4329867172379802463) has begun draining connections on 1 tasks."
+            },
+            {
+                "id": "aa77be15-929c-4cbe-b6ca-ef4583f719da",
+                "createdAt": "2023-11-14T09:56:11.896000+02:00",
+                "message": "(service observe2) deregistered 1 targets in (target-group arn:aws:elasticloadbalancing:eu-central-1:182515924836:targetgroup/observe2/0f814fa85c9d5096)"
+            },
+            {
+                "id": "dbe06d3a-ea8c-4d5e-9bda-56447d6e2dd6",
+                "createdAt": "2023-11-14T09:56:02.088000+02:00",
+                "message": "(service observe2) has stopped 1 running tasks: (task b2ef0de2dce2408fbc027d28a1b5f33a)."
+            },
+            {
+                "id": "5ca2c83b-001f-4242-ab6a-6ad6370262e1",
+                "createdAt": "2023-11-14T09:55:13.122000+02:00",
+                "message": "(service observe2) registered 1 targets in (target-group arn:aws:elasticloadbalancing:eu-central-1:182515924836:targetgroup/observe2/0f814fa85c9d5096)"
+            },
+            {
+                "id": "458ecd25-65b8-42af-9450-8366a5ddda64",
+                "createdAt": "2023-11-14T09:54:42.995000+02:00",
+                "message": "(service observe2) has started 1 tasks: (task 9327d850f68746f797123f017451fd36)."
+            },
+            {
+                "id": "b6172593-3d18-4967-89b0-257b63fd8a78",
+                "createdAt": "2023-11-14T04:09:29.911000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "ddbb297a-9a01-47be-b8a1-f3671e409b53",
+                "createdAt": "2023-11-13T22:09:06.232000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "50a8448f-bb90-4af0-ae3f-2873fa583cc6",
+                "createdAt": "2023-11-13T16:08:38.212000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "54ed8358-f116-48c4-89aa-f647b7db6e29",
+                "createdAt": "2023-11-13T15:09:12.042000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "e417ad6f-0595-44c4-b313-1d1f75e2943d",
+                "createdAt": "2023-11-13T09:09:02.164000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "c046b882-c4b5-44aa-a7d8-4594b9af6ae6",
+                "createdAt": "2023-11-13T03:09:00.703000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "99e18aee-e5f6-43d0-a92e-d7c3fbcdee2f",
+                "createdAt": "2023-11-12T21:08:27.757000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "8bd48422-d64f-4f96-a3ce-a421792bce6a",
+                "createdAt": "2023-11-12T15:07:41.184000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "93b15c5c-bfb6-4c75-a7d4-44ef3420d91f",
+                "createdAt": "2023-11-12T09:07:13.509000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "f12bae8c-8f1a-4384-99e6-d1d0bce7260b",
+                "createdAt": "2023-11-12T03:07:06.237000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "a4b90258-0b8d-4a1e-a78c-9142c9f6781d",
+                "createdAt": "2023-11-11T21:06:57.160000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "1d56db4f-9ceb-4abd-88a6-a5cf6738c485",
+                "createdAt": "2023-11-11T15:06:42.268000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "505a63d7-042f-4890-868c-4819308493b3",
+                "createdAt": "2023-11-11T09:06:02.137000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "32f8e330-52ae-4184-afc9-c9a53e24ceb9",
+                "createdAt": "2023-11-11T03:05:56.730000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "b707f5b8-6bd9-43b2-9831-4204bd3f23fd",
+                "createdAt": "2023-11-10T21:05:55.559000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "3fa9eb9a-abb4-4219-a36e-b9cc97d08516",
+                "createdAt": "2023-11-10T15:05:25.691000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "42fb98a8-9c1c-4c67-81a7-2d63c84b9edc",
+                "createdAt": "2023-11-10T09:05:08.280000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "44bd6299-aaab-4046-b27a-9b566453ede4",
+                "createdAt": "2023-11-10T03:04:36.433000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "8aa91740-0049-422e-9c7f-9631fc315994",
+                "createdAt": "2023-11-09T21:04:34.469000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "e9ef22b6-b9d7-4ea6-8596-3a0cd60191fd",
+                "createdAt": "2023-11-09T18:24:28.330000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "bfeea708-6c29-4415-a96d-00c5d8983c2d",
+                "createdAt": "2023-11-09T18:17:50.785000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "20aa6417-4d49-4b14-b34b-ad1cd68be2b8",
+                "createdAt": "2023-11-09T12:17:22.476000+02:00",
+                "message": "(service observe2) has reached a steady state."
+            },
+            {
+                "id": "1bd550c0-4dd2-497f-b4df-1a4942d692f1",
+                "createdAt": "2023-11-09T12:17:22.475000+02:00",
+                "message": "(service observe2) (deployment ecs-svc/4329867172379802463) deployment completed."
+            },
+            {
+                "id": "4cef1017-e2bf-4932-ba57-b9b79ab099c7",
+                "createdAt": "2023-11-09T12:17:02.968000+02:00",
+                "message": "(service observe2) registered 1 targets in (target-group arn:aws:elasticloadbalancing:eu-central-1:182515924836:targetgroup/observe2/0f814fa85c9d5096)"
+            },
+            {
+                "id": "52f8cd7c-9ec2-4fbb-9da1-d333b04905ed",
+                "createdAt": "2023-11-09T12:16:33.495000+02:00",
+                "message": "(service observe2) has started 1 tasks: (task b2ef0de2dce2408fbc027d28a1b5f33a)."
+            }
+        ],
+        "createdAt": "2023-11-09T12:16:29.859000+02:00",
+        "placementConstraints": [],
+        "placementStrategy": [],
+        "networkConfiguration": {
+            "awsvpcConfiguration": {
+                "subnets": [
+                    "subnet-074c307df99a15e0e",
+                    "subnet-02dcd3cba91e02083"
+                ],
+                "securityGroups": [
+                    "sg-056cbff8d366ef2f5",
+                    "sg-0efc91c682d16afc2"
+                ],
+                "assignPublicIp": "ENABLED"
+            }
+        },
+        "healthCheckGracePeriodSeconds": 0,
+        "schedulingStrategy": "REPLICA",
+        "deploymentController": {
+            "type": "ECS"
+        },
+        "createdBy": "arn:aws:iam::182515924836:user/lev",
+        "enableECSManagedTags": true,
+        "propagateTags": "NONE",
+        "enableExecuteCommand": false
+    }
+}
